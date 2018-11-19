@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Pinterest" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="We Heart It" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Twitter" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Listas" />
+    </group>
+
+    <item android:title="Contacto">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Enviar Mensaje" />
+        </menu>
+    </item>
+    <item android:title="Cuenta">
+        <menu>
+            <item
+                android:id="@+id/cerrar_sesion"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Cerrar sesión" />
+        </menu>
+    </item>
+
+</menu>
